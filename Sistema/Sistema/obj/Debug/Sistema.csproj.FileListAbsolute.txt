@@ -11,3 +11,7 @@ D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\obj\Debug\Sistema.csproj.GenerateRe
 D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\obj\Debug\Sistema.csproj.CoreCompileInputs.cache
 D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\obj\Debug\Sistema.exe
 D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\obj\Debug\Sistema.pdb
+D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\bin\Debug\DlibDotNetNative.dll
+D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\bin\Debug\DlibDotNetNativeDnn.dll
+D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\bin\Debug\DlibDotNet.dll
+D:\github\UNIP_APS_2020_2SEM\Sistema\Sistema\obj\Debug\Sistema.csproj.CopyComplete
