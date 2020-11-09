@@ -12,9 +12,23 @@ namespace Sistema
 {
     public partial class Home : Form
     {
-        public Home()
+        UsuarioTO usuario { get; set; }
+        public Home(UsuarioTO usuarioT)
         {
             InitializeComponent();
+
+            usuario = usuarioT;
+        }
+
+        private void Home_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Login c = new Login();
+            c.Show();
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
