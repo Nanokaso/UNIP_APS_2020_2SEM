@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.pnlGeral = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnUpload = new System.Windows.Forms.Button();
             this.picImage = new System.Windows.Forms.PictureBox();
             this.lblCadastrar = new System.Windows.Forms.Label();
             this.btnContinuar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.pnlGeral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
             this.SuspendLayout();
@@ -50,6 +50,20 @@
             this.pnlGeral.Name = "pnlGeral";
             this.pnlGeral.Size = new System.Drawing.Size(464, 441);
             this.pnlGeral.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(0, 0);
+            this.label1.Name = "label1";
+            this.label1.Padding = new System.Windows.Forms.Padding(10);
+            this.label1.Size = new System.Drawing.Size(66, 38);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Logar";
             // 
             // btnUpload
             // 
@@ -79,14 +93,15 @@
             // lblCadastrar
             // 
             this.lblCadastrar.AutoSize = true;
+            this.lblCadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(30)))), ((int)(((byte)(40)))));
             this.lblCadastrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lblCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCadastrar.ForeColor = System.Drawing.Color.Cyan;
+            this.lblCadastrar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(60)))), ((int)(((byte)(70)))));
             this.lblCadastrar.Location = new System.Drawing.Point(14, 409);
             this.lblCadastrar.Name = "lblCadastrar";
-            this.lblCadastrar.Size = new System.Drawing.Size(163, 18);
+            this.lblCadastrar.Size = new System.Drawing.Size(126, 18);
             this.lblCadastrar.TabIndex = 2;
-            this.lblCadastrar.Text = "Cadastrar novo usuario";
+            this.lblCadastrar.Text = "Logar Como Adm";
             this.lblCadastrar.Click += new System.EventHandler(this.lblCadastrar_Click);
             // 
             // btnContinuar
@@ -103,20 +118,6 @@
             this.btnContinuar.Text = "Continuar";
             this.btnContinuar.UseVisualStyleBackColor = false;
             this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Cyan;
-            this.label1.Location = new System.Drawing.Point(0, 0);
-            this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(10);
-            this.label1.Size = new System.Drawing.Size(66, 38);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "Logar";
             // 
             // Login
             // 

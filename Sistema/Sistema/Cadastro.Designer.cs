@@ -29,15 +29,14 @@
         private void InitializeComponent()
         {
             this.pnlGeral = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
             this.txtNome = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPerfil = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblLogin = new System.Windows.Forms.Label();
             this.btnContinuar = new System.Windows.Forms.Button();
             this.btnUpload = new System.Windows.Forms.Button();
             this.picImage = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.pnlGeral.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImage)).BeginInit();
             this.SuspendLayout();
@@ -49,7 +48,6 @@
             this.pnlGeral.Controls.Add(this.label2);
             this.pnlGeral.Controls.Add(this.txtPerfil);
             this.pnlGeral.Controls.Add(this.label1);
-            this.pnlGeral.Controls.Add(this.lblLogin);
             this.pnlGeral.Controls.Add(this.btnContinuar);
             this.pnlGeral.Controls.Add(this.btnUpload);
             this.pnlGeral.Controls.Add(this.picImage);
@@ -58,6 +56,20 @@
             this.pnlGeral.Name = "pnlGeral";
             this.pnlGeral.Size = new System.Drawing.Size(464, 446);
             this.pnlGeral.TabIndex = 0;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Padding = new System.Windows.Forms.Padding(10);
+            this.label3.Size = new System.Drawing.Size(89, 38);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "Cadastro";
             // 
             // txtNome
             // 
@@ -101,19 +113,6 @@
             this.label1.TabIndex = 2;
             this.label1.Text = "Nivel de acesso (1,2 ou 3)";
             // 
-            // lblLogin
-            // 
-            this.lblLogin.AutoSize = true;
-            this.lblLogin.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogin.ForeColor = System.Drawing.Color.Cyan;
-            this.lblLogin.Location = new System.Drawing.Point(14, 412);
-            this.lblLogin.Name = "lblLogin";
-            this.lblLogin.Size = new System.Drawing.Size(161, 18);
-            this.lblLogin.TabIndex = 2;
-            this.lblLogin.Text = "Voltar para tela de login";
-            this.lblLogin.Click += new System.EventHandler(this.lblLogin_Click);
-            // 
             // btnContinuar
             // 
             this.btnContinuar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(40)))), ((int)(((byte)(50)))));
@@ -154,20 +153,6 @@
             this.picImage.TabIndex = 0;
             this.picImage.TabStop = false;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Cyan;
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Padding = new System.Windows.Forms.Padding(10);
-            this.label3.Size = new System.Drawing.Size(89, 38);
-            this.label3.TabIndex = 7;
-            this.label3.Text = "Cadastro";
-            // 
             // Cadastro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,7 +179,6 @@
         private System.Windows.Forms.PictureBox picImage;
         private System.Windows.Forms.Button btnContinuar;
         private System.Windows.Forms.Button btnUpload;
-        private System.Windows.Forms.Label lblLogin;
         private System.Windows.Forms.TextBox txtPerfil;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNome;

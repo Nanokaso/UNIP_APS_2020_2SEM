@@ -28,7 +28,7 @@ namespace Sistema
         bool isClickButton { get; set; }
         private void lblCadastrar_Click(object sender, EventArgs e)
         {
-            Cadastro c = new Cadastro();
+            LoginAdm c = new LoginAdm();
             c.Show();
             isClickButton = true;
             Close();

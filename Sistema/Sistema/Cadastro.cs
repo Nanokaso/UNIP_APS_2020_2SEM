@@ -19,22 +19,17 @@ namespace Sistema
         string caminho { get; set; }
         private void lblLogin_Click(object sender, EventArgs e)
         {
+            Login c = null;
+            if (!string.IsNullOrEmpty(caminho))
+            { c = new Login(caminho); }
+            else
+            { c = new Login(); }
+            c.Show();
             this.Close();
         }
 
         private void Cadastro_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            Login c = null;
-            if (!string.IsNullOrEmpty(caminho))
-            {
-                c = new Login(caminho);
-            }
-            else
-            {
-                c = new Login();
-            }
-            c.Show();
-        }
+        { }
 
         private void Cadastro_Load(object sender, EventArgs e)
         {
@@ -82,9 +77,9 @@ namespace Sistema
 
                 if (!string.IsNullOrEmpty(caminho))
                 {
-                    UsuarioDAO.Cadastrar(caminho);
+                    UsuarioDAO.Cadastrar(caminho, txtNome.Text, numeroPerfil);
                     MessageBox.Show("Cadastro efetuado com sucesso!");
-                    this.Close();
+                    //this.Close();
                 }
                 else
                 {
